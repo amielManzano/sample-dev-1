@@ -42,38 +42,45 @@
     </div>
 
     <div class="container mt-5 ">
-        <div class="row">
-            <div class="col-sm-12 col-md-4">
-                <div class="card bg-light  cardHeight">
-                    <div class="card-body">
-                        <h5 class="card-title text-center headerFont"><b>Offshore</b></h5>
-                        <p class="card-text text-justify subHeaderFont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quibusdam fugit aliquid sequi sit. Est dolores iure laboriosam architecto doloremque cupiditate quod aperiam qui non provident! Maiores minima ex hic!</p>
-                        <button class="btn btn-secondary w-100"> Read More...</button>
-                    </div>
-                </div>
+        <form class="bg-light p-5">
+            <div class="row">
+              <div class="form-group col-md-12 col-lg-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+              <div class="form-group col-md-12 col-lg-6">
+                <label for="inputPassword4">Password</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+              </div>
             </div>
-
-            <div class="col-sm-12 col-md-4">
-                <div class="card bg-light  cardHeight">
-                    <div class="card-body">
-                        <h5 class="card-title text-center headerFont"><b>Internal</b></h5>
-                        <p class="card-text text-justify subHeaderFont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum beatae, qui eos voluptatibus esse reiciendis fugiat reprehenderit nemo consequatur asperiores quas praesentium molestiae natus atque modi possimus tenetur ad fugit.</p>
-                        <button class="btn btn-secondary w-100">Read More...</button>
-                    </div>
-                </div>
+            <div class="form-group">
+              <label for="inputAddress">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
             </div>
-
-            <div class="col-sm-12 col-md-4">
-                <div class="card bg-light  cardHeight">
-                    <div class="card-body">
-                        <h5 class="card-title text-center headerFont"><b>Own</b></h5>
-                        <p class="card-text text-justify subHeaderFont">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore perspiciatis consequatur eos corporis! Perferendis saepe consequatur, nihil cum voluptatem voluptatum eaque tempore impedit magni odit officiis autem omnis veritatis ipsa!</p>
-                        <button class="btn btn-secondary w-100">Read More..</button>
-                    </div>
-                </div>
+            <div class="form-group">
+              <label for="inputAddress2">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
             </div>
-        </div>
-   
+            <div class="row">
+              <div class="form-group col-md-12 col-lg-5">
+                <label for="inputCity">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="form-group col-md-12 col-lg-5">
+                <label for="inputProvince">Province</label>
+                <input type="text" class="form-control" id="inputProvince">
+              </div>
+              <div class="form-group col-md-12 col-lg-2">
+                <label for="inputZip">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Additonal Information</label>
+                <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="10"></textarea>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-secondary w-100 my-3">Request Application</button>
+          </form>
     </div>
 
     <!-- link google fonts -->
