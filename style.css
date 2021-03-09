@@ -1,0 +1,15 @@
+.headerFont{
+    font-family: 'Architects Daughter', cursive;
+}
+
+.subHeaderFont{
+    font-family: 'Padauk', sans-serif;
+}
+
+.cardHeight{
+    min-height: 250px;
+}
+
+.card-text{
+    text-align: justify;
+}
